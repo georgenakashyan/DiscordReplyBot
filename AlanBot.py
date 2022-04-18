@@ -1,20 +1,13 @@
-from ast import Str
 import asyncio
 from distutils.log import error
-from tokenize import String
 import discord
 from discord.ext import commands
 import random
-import time
+import json
 
-from ast import Str
-import asyncio
-from distutils.log import error
-from tokenize import String
-import discord
-from discord.ext import commands
-import random
-import time
+#If running this on a RaspberryPi and it doesn't run on startup, uncomment this. It might need to wait for the networking to finish setting up.
+#import time
+#time.sleep(15)
 
 #GO TO THE BOTTOM OF THE CODE AND INSERT YOUR BOT'S AUTH-ID FOR IT TO WORK.
 #
@@ -22,12 +15,10 @@ import time
 #Add ability to get / set conditions to check for.
 #Add profiles to make that easier ^^
 #Generalize variable and method names
-#Make classes
+#Use Python Dictionaries to have multiple conditions.
+#Fix page system for large outputs.
 #
 #v1.0
-
-#If running this on a RaspberryPi and it doesn't run on startup, uncomment this. It might need to wait for the networking to finish setting up.
-#time.sleep(15)
 
 #Bot declaration.
 client = commands.Bot(command_prefix="~")
