@@ -1,7 +1,7 @@
 # DiscordReplyBot
 
-Using Discord.py, the Discord-Reply-Bot scans all new messages across all chats, and as soon as someone mentions the specific string it is detecting, it has a chance of outputting a random reply from a list. The specific string, chance %, and list, can all be changed.
-
-Has commands for adding/deleting quotes straight from chat and commands for adding admins who can use certain specific commands.
-
-v1.0
+Using the Discord API, the Discord Reply Bot does the following:
+  * Scans all incoming messages to see if it matches a keyword.
+  * If keyword is mentioned it has a chance of outputting a random reply from a list. 
+  * The keyword, chance percentage, and list can all be changed with commands.
+  
