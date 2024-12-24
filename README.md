@@ -14,8 +14,8 @@
 ## Issues
 
 There is a list of
-[Known Issues](https://github.com/Gevoooo/BasicBusinessReport/issues) (things
+[Known Issues](https://github.com/georgenakashyan/BasicBusinessReport/issues) (things
 to be fixed or that aren't yet implemented).
 
 If you found a bug or have a new idea/feature for the program,
-[you can report them](https://github.com/Gevoooo/BasicBusinessReport/issues/new).
+[you can report them](https://github.com/georgenakashyan/BasicBusinessReport/issues/new).
